@@ -16,8 +16,9 @@ public class Main {
 				sortModel model = new sortModel();
 				Sort_View view = new Sort_View();
 				Sort_controller controller = new Sort_controller(model,view);
-				controller.InputFtn();
-				int arr[] = null;
+				
+				int arr[] = controller.InputFtn();
+				 
 				controller.OutputFtn(arr);
 	}
 
